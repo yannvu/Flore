@@ -3,9 +3,9 @@ body {
   background-color: #fff;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 900;
-  line-height: 1.5;
+  line-height: 1;
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
@@ -14,6 +14,10 @@ h2 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.5
+}
+h3{
+  color: #696969;
+
 }
 
 p{
@@ -31,7 +35,8 @@ hr{
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 5%;}
+  width: 5%;
+}
 
 
 
@@ -48,17 +53,18 @@ hr{
 
 .navbar{
   padding:  0.5rem;
-  background-color: #000;
+  background-color: #D3D3D3;
 }
+.navbar-light .navbar-brand{
+  color: #696969;
 
+}
 
 .navbar-brand {
   font-family: "Roboto";
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   margin-left: 20px;
-  color:#fff;
-
 }
 
 .nav-item{
@@ -66,10 +72,10 @@ hr{
   color: #fff;
 }
 .nav-link {
-  color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
 }
+
 .title-text {
   text-align: center;
   margin-top: 20%;
@@ -81,7 +87,8 @@ hr{
 
 .Abutton{
    margin: 5% 5% 5% 5%;
-   background-color: #000;
+   background-color: #696969;
+
 }
 /* home section */
 
@@ -89,168 +96,117 @@ hr{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-
+.intro-title{
+  color: #696969;
+}
 .intro-text{
   padding: 5% 3% 5% 0;
 }
-.home-image{
-  float:right;
-  width: 30%;
-  margin-top: 70px;
-  margin-left: 20px;
-
-}
-
 
 /* about-me */
 
 #ABOUT-ME{
-  background-color: #000;
-  padding-top: 10%;
-  padding-bottom: 10%
+  background-color: #D3D3D3;
+  padding-top: 5%;
+  padding-bottom: 5%
 }
 
 .am-title {
   font-size: 2.5rem;
   text-align: left;
-  color: #fff;
+  color: #696969;
 
 }
 .about-me-text {text-align: justify;
-  padding: 5% 5% 3% 0;
+}
+
+.about-me-image{
+  float:right;
+  width: 30%;
+  margin-top: 5px;
+  margin-left: 20px;
 
 }
-.about-me-img{
-  width: 100%;
-  height: 100%;
-  padding-top: 10px;
-}
+
 /* BUSINESS-SERVICES */
 
 #BUSINESS-SERVICES{
   background-color: #fff;
-  margin-bottom: 5%
-
 }
 .bs-intro{
-  padding-top: 50px;
-  padding-bottom: 20px;
   background-image: url(../images/dreamstime_B.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 .title-bs{
-margin: 10% 0 10% 0;
+padding: 10% 0 10% 0;
 
 }
 .p-bs{ text-align: center;
 color: #fff;
+padding: 0 10px 0 10px;
+
+
 }
 
 /* Features */
 
 .features {
   background-color: #fff;
-  margin-top: 5%;
-  margin-bottom: 5%
 }
 .feature-box {
+  padding-top: 50px;
+  padding-bottom: 10px;
   text-align: center;
 }
 .icon{
   padding-bottom: 20px;
-  color: #ffd700;
+  color: #696969;
 }
 
 /* specialist services */
 
 .specialist{
-  background-color: #000;
+  background-color: #fff;
   text-align: center;
-  padding: 5% 0 5% 0
+  padding: 2% 0 2% 0
 }
 .specialist-ul{
   display: inline-block;
-        margin: 0;
         padding: 10px 0;
 }
 .SS-h1{
   margin-bottom: 0;
   margin-left: 0;
+  color: #696969;
 
 }
 
 .web-image {
   float:left;
-
   margin-left: 10%;
   width:15%
 }
 
-/* Rates */
-.rates-text{
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: 50px;
-}
-.rates-h1{
-  color: #000;
-}
 /* Contact */
 #CONTACT{
-padding-top: 10%;
-padding-bottom: 10%;
-
-
-background-color: #000;
+background-color: #D3D3D3;
 }
 
 .contact-box{
   text-align: center;
+
 }
 #c-h2{
-  color: #fff;
+  color: #696969;
+
+}
+.c-p-h2{
+  padding: 0 10px 0 10px;
 }
 .btn-contact{
-  color: #ffd700;
-}
-
-/* Form Box */
-
-.form-box{
-  text-align: center;
-  color: #fff;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
-
-.form-top {
-    padding: 0 25px 0 25px;
-    background: #000;
-    text-align: center;
-}
-
-.form-h2 { margin-top: 0; }
-
-.form-bottom {
-    padding: 0 25px 30px 25px;
-    background: #000;
-    text-align: left;
-}
-
-.form-bottom form textarea {
-    height: 60px;
-}
-.form-bottom form .input-error {
-    border-color: #d05a4e;
-}
-.fbutton{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-   background-color: #000;
+  color: #696969;
 }
 
 
@@ -277,9 +233,8 @@ padding-bottom: 0;
 }
 
 .footer-link{
-  block;
 
   margin-left: 20px;
   margin-right: auto;
-  color:#000;
+  color:#696969;
 }

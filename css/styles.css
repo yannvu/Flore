@@ -199,11 +199,12 @@ background-color: #D3D3D3;
 
 }
 #c-h2{
+  padding-top: 3%;
   color: #696969;
 
 }
 .c-p-h2{
-  padding: 0 10px 0 10px;
+  padding: 0 10px 3% 10px;
 }
 .btn-contact{
   color: #696969;
